@@ -24,9 +24,9 @@ const Action = () => console.log('action')
 const App = ({ notify }) => 
     <Button
       onPress={ () => notify() }
-      title="Join with HOC"
-      color="#841584"
-      accessibilityLabel="Learn more about this purple button"
+      title='Join with HOC'
+      color='#841584'
+      accessibilityLabel='Learn more about this purple button'
     />
 
 export default withNotification({ 
@@ -46,9 +46,9 @@ import { Notification } from 'react-native-lazy-toast';
      
         <Button
             onPress={ () => this.child.showNotify() } // here you can call showNotify with ref
-            title="Join component"
-            color="#841584"
-            accessibilityLabel="Learn more about this purple button"
+            title='Join component'
+            color='#841584'
+            accessibilityLabel='Learn more about this purple button'
         />
 
         <Notification 
