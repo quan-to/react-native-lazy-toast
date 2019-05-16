@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/ronal2do/react-native-lazy-toast#readme",
   "dependencies": {
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.7.2"
   }
 }
